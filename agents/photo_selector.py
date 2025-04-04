@@ -5,7 +5,7 @@ import os
 from typing import List, Tuple
 
 class PhotoSelector:
-    def __init__(self, target_count: int = 4):
+    def __init__(self, target_count: int = 10):
         self.target_count = target_count
 
     def analyze_image(self, image_path: str) -> float:
